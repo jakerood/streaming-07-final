@@ -115,7 +115,7 @@ Below is a screenshot of the stock consumer running
 
 An alert is triggered by the consumer for any of the four stocks if the following occurs:
 
-> Stock price changes (increase or decrease) by 0.5% or more in 5 minutes
+> Stock price changes (increases or decreases) by 0.5% or more in 5 minutes
 
 This triggers a PRICE ALERT. See the below screenshots for examples of a triggered PRICE ALERT (see bottom terminal):
 
@@ -125,7 +125,7 @@ This triggers a PRICE ALERT. See the below screenshots for examples of a trigger
 
 ## RabbitMQ Admin
 
-RabbitMQ comes with an admin panel. When you run the BBQ producer, reply y to open it.
+RabbitMQ comes with an admin panel. When you run the stock producer, reply y to open it.
 
 Below is a screenshot of the RabbitMQ admin panel showing the four queues in our process running.
 
@@ -133,7 +133,7 @@ Below is a screenshot of the RabbitMQ admin panel showing the four queues in our
 
 
 ## Sync Changes to GitHub
-Now it's time to get the local work you did on your machine back up to your cloud repo in GitHub:
+Once finished, it's time to get the local work you did on your machine back up to your cloud repo in GitHub:
 
 1. On the VS Code side panel, click the source control icon (look for a blue bubble with a number in it).
 1. Important! Above the Commit button, it will say "Message".
