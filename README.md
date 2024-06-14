@@ -1,4 +1,4 @@
-# streaming-07-final
+# Streaming Stock Prices Using RabbitMQ
 
 > Name: Jake Rood \
 Date: June 13, 2024
@@ -13,6 +13,12 @@ Stock prices for four different stocks are streamed in this project:
 * Microsoft Corp (MSFT)
 
 First, we'll design our system and implement the producer. Then, we'll add the consumer, implementing analytics based on a rolling window of time. We will raise an alert when significant price changes are detected.
+
+## Data
+
+The data used in this project was acquired from the Yahoo! Finance API using yfinance in Python.
+
+See the following link for the documentation for yfinance: [https://pypi.org/project/yfinance/](https://pypi.org/project/yfinance/)
 
 ## Prerequisites
 
